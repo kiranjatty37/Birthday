@@ -1,0 +1,23 @@
+#canvas {
+    position: relative;
+    background: url("chinni.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+  }
+#sour{
+   opacity: 0.8;
+   position: relative;
+   vertical-align: center;
+   background: black;
+   
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    position: relative;
+    opacity: 1;
+}
+
