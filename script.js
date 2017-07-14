@@ -13,12 +13,12 @@ var canvas = document.getElementById("canvas"),
 		ctx = canvas.getContext("2d"),
     keyword = "HAPPY BIRTHDAY SUNNY",
 		imageData,
-		density = 2,
+		density = 1,
 		mouse = {},
 		hovered = false,
 		colors = ["236, 252, 17", "233, 150, 15","10, 230, 255","254, 230, 211","255, 0, 0","20, 255, 10"],
 		minDist = 30,
-		bounceFactor = 1;
+		bounceFactor = 0.5;
 var img = document.getElementById('source');
 var image=[];
 for(var i=0; i<6; i++)
